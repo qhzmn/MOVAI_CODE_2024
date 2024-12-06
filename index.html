@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice Lente</title>
+  <link rel="stylesheet" href="st.css">
+</head>
+
+<body>
+  <div class="app">
+    <div class="calculator">
+      <h1>Calculatrice</h1>
+      <form id="calc-form">
+        <div class="input-group">
+          <input type="number" id="num1" placeholder="Entrez le premier numéro" required>
+        </div>
+        <div class="input-group">
+          <input type="number" id="num2" placeholder="Entrez le deuxième numéro" required>
+        </div>
+        <button type="submit">Additionner</button>
+      </form>
+      <div class="result">
+        <h2 id="result">Résultat : 0</h2>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Image qui se déplace de manière aléatoire -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Lyreco_Logotype_RGB_positive.png" alt="Image" class="image" id="movingImage" width="5%" height="5%">
+
+  <script src="script.js"></script>
+</body>
+
+</html>
